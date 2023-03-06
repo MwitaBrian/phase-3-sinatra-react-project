@@ -1,9 +1,12 @@
 # Phase 3 Project Guidelines
 
-## Learning Goals
+## Learning Goals 
 
 - Build a web basic API with Sinatra and Active Record to support a React
   frontend
+  
+## FRONTEND REPOSITORY
+Link: https://github.com/MwitaBrian/budget_tracker
 
 ## Introduction
 
