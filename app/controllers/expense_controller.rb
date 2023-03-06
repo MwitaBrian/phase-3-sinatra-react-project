@@ -11,11 +11,9 @@ class ExpenseController < Sinatra::Base
     expense.to_json
   end
 
-  
-
-  # delete '/expenses/:id' do
-  #   expenses = Expense.find(params[:id])
-  #   expenses.destroy
-  #   expenses.to_json
-  #   end
+  delete '/expenses/:id' do
+    expense = Expense.find(params[:id])
+    expense.destroy
+    expense.to_json
+  end
 end
